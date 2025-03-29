@@ -102,6 +102,5 @@ public class MailServiceImpl implements MailService {
 	        body.put("result", "OK");
         
 		return body;
-
-    }
+	}
 }
