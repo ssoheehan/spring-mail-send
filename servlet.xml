@@ -1,8 +1,8 @@
 <beans:bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
-	<beans:property name="host" value="218.145.161.77"/>
-	<beans:property name="port" value="25"/>
-	<beans:property name="username" value="gnvoucher@gngrp.com"/>
-	<beans:property name="password" value="gncns2025!@#"/>
+	<beans:property name="host" value=""/>
+	<beans:property name="port" value=""/>
+	<beans:property name="username" value=""/>
+	<beans:property name="password" value=""/>
 	<beans:property name="javaMailProperties">
 		<beans:props>
 			<beans:prop key="mail.smtp.debug">true</beans:prop>
